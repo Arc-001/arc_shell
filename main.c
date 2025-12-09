@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include "dispacher.h"
+#include "io.h"
+#include "parser.h"
 
 
 void init() {
@@ -23,9 +25,16 @@ void runMainLoop() {
         printPrompt();
         //read input
         char* inp = readInput();
-        int c = 0;
+
+
         //parse commands
+        char** parsed_input = splitter(inp);
+
+
         // execute parsed commands
+        dispacher(parsed_input);
+
+
     }
 }
 

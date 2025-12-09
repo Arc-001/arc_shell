@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "io.h"
 #define BUFFER_SIZE 1024
 
@@ -26,7 +27,7 @@ char* readInput() {
             buffer = realloc(buffer, sizeof(char)*(current_max_length+BUFFER_SIZE));
             if (!buffer){
                 printf("Memory allocation failed\n");
-                exit();
+                exit(0);
             }
             current_max_length += BUFFER_SIZE;
         }

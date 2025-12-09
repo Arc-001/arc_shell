@@ -2,6 +2,7 @@
 #define delim " \t\r\n\a"
 #include <stdlib.h>
 #include <string.h>
+#include "parser.h"
 
 char **splitter(char *input) {
     
@@ -26,5 +27,8 @@ char **splitter(char *input) {
 
         token = strtok(NULL, delim);
     }
+    tokens[position] = NULL;
+    return tokens;
 }
+
 

@@ -1,0 +1,6 @@
+# ninja log v7
+0	27	1765289617393756452	CMakeFiles/arc_shell.dir/io.c.o	8af034da1a8eb0e5
+0	27	1765289617392178144	CMakeFiles/arc_shell.dir/main.c.o	d1dc619d482968ce
+0	30	1765289617393871603	CMakeFiles/arc_shell.dir/parser.c.o	ddba08b80d4e5bcf
+0	30	1765289617393996482	CMakeFiles/arc_shell.dir/dispacher.c.o	19c6447f68ef132f
+30	47	1765289617423744100	arc_shell	4071b755d02fe36d

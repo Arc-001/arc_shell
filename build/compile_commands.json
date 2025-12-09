@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/arc/repo/arc_shell/build",
+  "command": "/usr/bin/gcc -g -std=gnu11 -o CMakeFiles/arc_shell.dir/main.c.o -c /home/arc/repo/arc_shell/main.c",
+  "file": "/home/arc/repo/arc_shell/main.c",
+  "output": "CMakeFiles/arc_shell.dir/main.c.o"
+},
+{
+  "directory": "/home/arc/repo/arc_shell/build",
+  "command": "/usr/bin/gcc -g -std=gnu11 -o CMakeFiles/arc_shell.dir/io.c.o -c /home/arc/repo/arc_shell/io.c",
+  "file": "/home/arc/repo/arc_shell/io.c",
+  "output": "CMakeFiles/arc_shell.dir/io.c.o"
+},
+{
+  "directory": "/home/arc/repo/arc_shell/build",
+  "command": "/usr/bin/gcc -g -std=gnu11 -o CMakeFiles/arc_shell.dir/parser.c.o -c /home/arc/repo/arc_shell/parser.c",
+  "file": "/home/arc/repo/arc_shell/parser.c",
+  "output": "CMakeFiles/arc_shell.dir/parser.c.o"
+},
+{
+  "directory": "/home/arc/repo/arc_shell/build",
+  "command": "/usr/bin/gcc -g -std=gnu11 -o CMakeFiles/arc_shell.dir/dispacher.c.o -c /home/arc/repo/arc_shell/dispacher.c",
+  "file": "/home/arc/repo/arc_shell/dispacher.c",
+  "output": "CMakeFiles/arc_shell.dir/dispacher.c.o"
+}
+]
