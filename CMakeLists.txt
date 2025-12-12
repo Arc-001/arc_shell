@@ -12,4 +12,6 @@ add_executable(arc_shell
         parser.c
         parser.h
         dispacher.c
-        dispacher.h)
+        dispacher.h
+        builtin.h
+        builtin.c)

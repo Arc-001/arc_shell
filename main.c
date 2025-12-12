@@ -3,6 +3,7 @@
 #include "dispacher.h"
 #include "io.h"
 #include "parser.h"
+#include "builtin.h"
 
 
 void init() {
@@ -32,7 +33,7 @@ void runMainLoop() {
 
 
         // execute parsed commands
-        dispacher(parsed_input);
+        execute(parsed_input);
 
 
     }

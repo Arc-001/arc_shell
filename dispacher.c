@@ -8,8 +8,26 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <sys/types.h>
-
+#include <string.h>
+#include "builtin.h"
 #include "dispacher.h"
+
+int execute(char** args) {
+
+    if (args == NULL || args[0] == NULL) {
+        return 1;
+    }
+
+    for (int i = 0; i < builtinSIZE(); i++) {
+        if (strcmp(args[0], builtin_cmd[i])==0) {
+            return (*builtin_func[i])(args);
+        }
+    }
+    dispacher(args);
+    return 0;
+}
+
+
 void dispacher(char **args) {
     pid_t pid;
     pid_t wpid;
